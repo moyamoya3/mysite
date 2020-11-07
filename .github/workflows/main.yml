@@ -38,7 +38,6 @@ jobs:
       - name: Commit files
         id: commit
         run: |
-          git add --all
           git commit -m "Add changes" -a
 
 
