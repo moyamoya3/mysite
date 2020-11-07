@@ -20,5 +20,7 @@ def main():
 if __name__ == "__main__":
 	main()
 
+with open('abc.txt', 'w') as f:
+	f.write('aaa')
 
     
