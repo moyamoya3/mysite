@@ -40,8 +40,10 @@ jobs:
         run: |
           git config --local user.email "masaaki.oyaizu@gmail.com"
           git config --local user.name "moyamoya3"
-          git add --all
-          git commit -m "Add changes" -a
+          #git add --all
+          #git commit -m "Add changes" -a
+          git add .
+          git commit -m "Updated!"
 
 
 
