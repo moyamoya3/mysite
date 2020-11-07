@@ -34,4 +34,11 @@ jobs:
         run: |
           # main.pyの実行
           python main.py
-git commit -m "Add changes" -a
+
+      - name: Commit files
+        id: commit
+        run: |
+          git add --all
+          git commit -m "Add changes" -a
+
+
