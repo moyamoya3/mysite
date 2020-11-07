@@ -17,4 +17,4 @@
 
 
 with open('abc.txt', 'w') as f:
-	f.write('aaa'
+	f.write('aaa')
