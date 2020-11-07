@@ -15,6 +15,8 @@
 # if __name__ == "__main__":
 # 	main()
 
+with open('main.py', 'r') as fr:
+	rec = fr.read()
 
 with open('abc.txt', 'w') as f:
 	f.write('aaa')
