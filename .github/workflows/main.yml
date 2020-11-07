@@ -35,4 +35,14 @@ jobs:
           # main.pyの実行
           python main.py
           dir
+          
+      - name: Commit files
+        run: |
+          git config --local user.email "masaaki.oyaizu@gmail.com"
+          git config --local user.name "moyamoya3"
+          git add --all
+          git commit -m "Add changes" -a
+
+
+
 
