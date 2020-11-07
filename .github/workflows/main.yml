@@ -44,7 +44,8 @@ jobs:
           #git commit -m "Add changes" -a
           git add .
           git commit -m "Updated!"
-
+      - name: push code to master
+        run: git push origin HEAD:master
 
 
 
